@@ -16,13 +16,13 @@ This is my personal portfolio, where you can find more information about me and 
       - [BSS](#bss)
 
 ## About Me
-- Estudiante proactivo, innovador y
-con la capacidad para el desarrollo
-web y de aplicaciones multimedia.
-Con estudios en desarrollo web en
-front-end y back-end, analista de
-bases de datos y certificado en
-tecnologías en redes
+- Proactive, innovative student with the ability to
+with the capacity for web and multimedia
+web and multimedia applications.
+With studies in web development in
+front-end and back-end, database analyst
+database analyst and certified in
+networking technologies.
 
 ## Tools
 
@@ -48,14 +48,14 @@ tecnologías en redes
 ## Proyects
 
 #### Serva
-- What is?: Serva es una aplicación multimedia, principalmente orientada a la administración de reservaciones, gestionamiento de los restaurantes locales a disponibilidad del cliente, como sus menus correspondientes, al igual que la administración del proceso de facturación de cada reserva a generar.
+- What is?: Serva is a multimedia application, mainly oriented to the administration of reservations, management of the local restaurants available to the client, as well as their corresponding menus, and the administration of the billing process of each reservation to be generated.
  
 
 #### getOrder
-- What is?: getOrder es un sistema para el control del inventario de productos y el proceso de facturación para un minisúper, donde puedes monitorear desde la entrada, hasta la salida de cada producto.
+- What is?: getOrder is a system for the control of the inventory of products and the invoicing process for a mini-supermarket, where you can monitor from the input to the output of each product.
 
 #### Mambos
-- What is?: 
+- What is?: Mambos is an E-commerce application for a fictitious restaurant and coffee shop in the localities, with its public (shopping cart, registration and account management) and private (dashboard, user and inventory management) site administration.
 
 #### BSS
-- What is?: 
+- What is?: BSS (Backpack Service System) is a web-based customer, billing, inventory and user management application for Stratega-IT, with its notification management and process automation.
