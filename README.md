@@ -16,13 +16,8 @@ This is my personal portfolio, where you can find more information about me and 
       - [BSS](#bss)
 
 ## About Me
-- Proactive, innovative student with the ability to
-with the capacity for web and multimedia
-web and multimedia applications.
-With studies in web development in
-front-end and back-end, database analyst
-database analyst and certified in
-networking technologies.
+- I'm Cristian, a university student with the goal of being a computer science engineer, proactive, innovative, and focused on UI/UX design. A Full Stack developer, with a lot of aspiration to fulfill the projects that I propose. 
+I'm particularly interested in database management, and I'm excited to explore and master this area to enhance my skills as a developer.
 
 ## Tools
 
@@ -34,6 +29,7 @@ networking technologies.
 - Tailwind
 - Prisma
 - Node
+- Figma
 
 #### Programming
 - JavaScript
