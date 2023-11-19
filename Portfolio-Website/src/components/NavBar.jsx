@@ -30,7 +30,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center w-full h-32 text-white fixed">
+      <div className="flex z-30 justify-between items-center w-full h-32 text-white fixed">
 
         <div className="uppercase pl-8 md:pl-12 lg:pl-24 2xl:pl-44">
           <h1 className="text-4xl lg:text-5xl duration-300">XPortfolio</h1>
