@@ -30,15 +30,15 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="flex z-30 justify-between items-center w-full h-32 text-white fixed">
+      <div className="flex z-30 justify-between items-center w-full h-32 text-white fixed pb-8">
 
         <div className="uppercase pl-8 md:pl-12 lg:pl-24 2xl:pl-44">
-          <h1 className="text-4xl lg:text-5xl duration-300">XPortfolio</h1>
+          <h1 className="text-4xl duration-300">XPortfolio</h1>
         </div>
 
         <ul className="hidden md:flex md:space-x-[30px] lg:space-x-[50px] xl:space-x-[90px] 2xl:space-x-[110px] md:pr-8 xl:pr-28 2xl:pr-48">
           {links.map(({ id, link }) => (
-            <li key={id} className="hover:text-vivid-cyan md:text-xl lg:text-2xl xl:text-3xl uppercase duration-300 cursor-pointer">
+            <li key={id} className="hover:text-vivid-cyan md:text-xl lg:text-xl uppercase duration-300 cursor-pointer">
               {link}
             </li>
           ))}

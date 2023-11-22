@@ -16,7 +16,7 @@ function Home() {
       <div className='w-full h-screen absolute top-0 left-0'>
         <div className='m-auto h-full w-full flex flex-col justify-center items-center'>
           {/* Tittle content */}
-          <h1 className='text-white text-5xl text-center lg:text-8xl pt-12'>Hi, I am
+          <h1 className='text-white text-3xl md:text-5xl text-center lg:text-6xl pt-12'>Hi, I am
             {/* Typed text animation */}
             <TypeAnimation
               // Text to type
@@ -25,7 +25,7 @@ function Home() {
                 3000, // Wait '3s'
                 ' a Developer', // Delete first one & typde second
                 3000, // Wait '3s'
-                ' Proactive',
+                ' a Coder',
                 3000 // Wait '3s'
               ]}
               wrapper="span"
@@ -38,7 +38,7 @@ function Home() {
           </h1>
 
           {/* Subtittle content */}
-          <h2 className='text-white-secondary text-xl lg:text-3xl pt-4'>A creative student & Full stack developer</h2>
+          <h2 className='text-white-secondary text-sm md:text-xl pt-4'>A creative student & Full stack developer</h2>
           {/* Icons contet */}
           <div className='flex text-white space-x-10 pt-5'>
             {/* Github Icon */}
