@@ -15,7 +15,7 @@ function Home() {
       <img className='w-full h-screen object-cover' src="src\assets\img\Background.png" alt="Background" />
       <div className='w-full h-screen absolute top-0 left-0'>
         <div className='m-auto h-full w-full flex flex-col justify-center items-center'>
-          {/* Tittle content */}
+          {/* Title content */}
           <h1 className='text-white text-3xl md:text-5xl text-center lg:text-6xl pt-12'>Hi, I am
             {/* Typed text animation */}
             <TypeAnimation
@@ -37,7 +37,7 @@ function Home() {
             />
           </h1>
 
-          {/* Subtittle content */}
+          {/* SubTitle content */}
           <h2 className='text-white-secondary text-sm md:text-xl pt-4'>A creative student & Full stack developer</h2>
           {/* Icons contet */}
           <div className='flex text-white space-x-10 pt-5'>

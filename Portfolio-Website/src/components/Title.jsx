@@ -1,0 +1,19 @@
+/*
+    *Title Component*
+    Properties: 
+        - text: Title to name the section 
+    Return:
+        - Property "text" styled like a title 
+*/
+export const Title = ({ text }) => {
+    return (
+        <div className='grid place-content-center mb-28 uppercase text-center'>
+            <div className='z-10 '>
+                <h3 className=' text-vivid-cyan text-3xl -mb-[40px] underline underline-offset-4 '>{text}</h3>
+            </div>
+            <div className='relative -mt-0 lg:-mt-[10px]'>
+                <h1 className='text-[#1E1E1E] text-6xl lg:text-8xl'>{text}</h1>
+            </div>
+        </div>
+    )
+}
