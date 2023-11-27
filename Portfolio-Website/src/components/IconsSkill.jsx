@@ -1,18 +1,18 @@
 /*
     *Icons Skills Component* 
 */
-export const IconsSkill = ({  }) => {
+export const IconsSkill = ({ }) => {
   return (
     <>
       {/* Skills Icons Container */}
-      <div className='flex flex-row w-full mt-20 lg:mt-48 space-x-44'>
-        <div className=" flex flex-col justify-center basis-1/2">
+      <div className='flex flex-col xl:flex-row w-full mt-20 lg:mt-48 xl:space-x-44 space-y-10 xl:space-y-0'>
+        <div className="flex flex-col justify-start basis-1/2">
 
           {/* Programing Section  */}
           <h1 className="text-white text-4xl text-center">Programing</h1>
 
           {/* First Row */}
-          <div className="flex flex-row w-full justify-center space-x-5 mt-20">
+          <div className="flex flex-row w-full justify-center space-x-5 mt-10 lg:mt-20 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
 
             {/* JavaScript Icons */}
             <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
@@ -41,7 +41,7 @@ export const IconsSkill = ({  }) => {
           </div>
 
           {/* Second Row */}
-          <div className="flex flex-row w-full justify-center space-x-5 mt-5">
+          <div className="flex flex-row w-full justify-center space-x-5 mt-5 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
 
             {/* Java Icons */}
             <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
@@ -54,8 +54,47 @@ export const IconsSkill = ({  }) => {
             </div>
           </div>
         </div>
-        <div className=" text-center basis-1/2">
-          <h1 className="text-white text-4xl"><span className="text-vivid-cyan">Database</span> Managment</h1>
+
+        {/* Database Managment Section */}
+        <div className="flex flex-col justify-start basis-1/2">
+          <h1 className="text-white text-center text-4xl"><span className="text-vivid-cyan">Database</span> Managment</h1>
+
+          {/* First Row */}
+          <div className="flex flex-row w-full justify-center space-x-5 mt-10 lg:mt-20 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
+
+            {/* Postgres Icons */}
+            <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center place-items-center">
+                <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                  <img src="src\assets\Icons\Postgres.png" alt="Postgres" className="h-[50px] w-[45px]" />
+
+                </div>
+                <p className="text-white text-center text-xs">Postgres</p>
+              </div>
+            </div>
+
+            {/* MySql Icons */}
+            <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center place-items-center">
+                <div className="grid place-content-center h-[50px] w-[75px] mb-3">
+                  <img src="src\assets\Icons\MySql.png" alt="MySql" className="h-[50px] w-[75px]" />
+
+                </div>
+                <p className="text-white text-center text-xs">MySql</p>
+              </div>
+            </div>
+
+            {/* SQL Server Icons */}
+            <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center place-items-center">
+                <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                  <img src="src\assets\Icons\SQLserverIcon.png" alt="SQL Server" className="h-[50px] w-[50px]" />
+
+                </div>
+                <p className="text-white text-center text-xs">SQL Server</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
