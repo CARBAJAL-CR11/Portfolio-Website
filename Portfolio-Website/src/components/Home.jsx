@@ -10,7 +10,7 @@ import { SiGmail } from "react-icons/si";
 
 function Home() {
   return (
-    <div id='home'>
+    <section id='home'>
       {/* Background Hero image */}
       <img className='w-full h-screen object-cover' src="src\assets\img\Background.png" alt="Background" />
       <div className='w-full h-screen absolute top-0 left-0'>
@@ -56,7 +56,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

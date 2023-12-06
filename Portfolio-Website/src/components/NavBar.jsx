@@ -26,24 +26,32 @@ const NavBar = () => {
       id: 4,
       link: 'proyects'
     },
+    {
+      id: 5,
+      link: 'cv'
+    },
   ]
 
   return (
     <>
+      {/* Navbar Component */}
       <div className="flex z-30 justify-between items-center w-full h-32 text-white fixed pb-8">
-
+        {/* JustADev Text */}
         <div className="pl-8 md:pl-12 lg:pl-24 2xl:pl-44">
           <h1 className="text-4xl duration-300">JustA<span className="text-vivid-cyan">Dev</span></h1>
         </div>
 
+        {/* Navbar sections items list */}
         <ul className="hidden md:flex md:space-x-[30px] lg:space-x-[50px] xl:space-x-[90px] 2xl:space-x-[110px] md:pr-8 xl:pr-28 2xl:pr-48">
           {links.map(({ id, link }) => (
+
             <li key={id} className="hover:text-vivid-cyan md:text-xl lg:text-xl uppercase duration-300 cursor-pointer">
               {link}
             </li>
           ))}
         </ul>
 
+        {/* Toggle Responsive Button (Hidden in desktop) */}
         <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-white md:hidden">
           {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>

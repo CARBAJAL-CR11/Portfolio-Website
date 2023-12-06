@@ -10,11 +10,11 @@ import { WebDesign } from './WebDesign'
 
 function Skills() {
     return (
-        <div id='skills' className='flex flex-col m-8 lg:m-44 xl:mt-[350px]'>
+        <section id="skills" className='flex flex-col my-[200px] lg:my-[250px] xl:my-[200px] m-8 lg:m-44'>
             <Title text={"My Skills"}></Title>
             <section className='flex flex-col lg:flex-row'>
                 <div className='flex basis-1/2 justify-center lg:justify-start'>
-                    <h1 className='text-white text-5xl text-center lg:text-left'>Look at My <span className='text-vivid-cyan'>Skills</span></h1>
+                    <h1 className='text-white text-4xl sm:text-4xl lg:text-5xl xl:text-5xl text-center lg:text-left'>Look at My <span className='text-vivid-cyan'>Skills</span></h1>
                 </div>
                 <div className='flex basis-1/2 lg:ml-10'>
                     <div className='flex w-full justify-center lg:justify-start mt-10 mx-5 lg:mx-0 lg:mt-0'>
@@ -26,7 +26,7 @@ function Skills() {
             </section>
             <IconsSkill></IconsSkill>
             <WebDesign></WebDesign>
-        </div>
+        </section>
     )
 }
 
