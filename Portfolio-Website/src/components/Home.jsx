@@ -25,7 +25,7 @@ function Home() {
                 3000, // Wait '3s'
                 ' a Developer', // Delete first one & typde second
                 3000, // Wait '3s'
-                ' a Coder',
+                ' a Web Designer',
                 3000 // Wait '3s'
               ]}
               wrapper="span"
