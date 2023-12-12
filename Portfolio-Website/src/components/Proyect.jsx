@@ -18,7 +18,7 @@ function Proyect() {
       <Title text={"My projects"}/>
       <h1 className='text-white justify-center lg: text-left text-4xl sm:text-4xl lg:text-5xl xl:text-5xl'>What <span className='text-vivid-cyan'>I have built</span></h1>
       {/* Proyects */}
-      <div className='flex flex-col space-y-40'>
+      <div className='flex flex-col space-y-[300px]'>
         <Serva/>
         <GetOrder/>
         <Mambos/>
