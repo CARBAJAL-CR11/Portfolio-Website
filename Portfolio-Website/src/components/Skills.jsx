@@ -10,7 +10,7 @@ import { WebDesign } from './WebDesign'
 
 function Skills() {
     return (
-        <section id="skills" className='flex flex-col my-[200px] lg:my-[250px] xl:my-[200px] m-8 lg:m-44'>
+        <section id="skills" className='flex flex-col py-[200px] lg:py-[250px] xl:py-[200px] p-8 lg:p-44'>
             <Title text={"My Skills"}></Title>
             <section className='flex flex-col lg:flex-row'>
                 <div className='flex basis-1/2 justify-center lg:justify-start'>

@@ -8,7 +8,7 @@ const Aboutme = () => {
   return (
     <>
       {/* About Me Section */}
-      <section id="about" className='flex flex-col my-[200px] lg:my-[250px] xl:my-[200px] m-8 lg:m-44'>
+      <section id="about me" className='flex flex-col py-[200px] lg:py-[250px] xl:py-[200px] p-8 lg:p-44'>
         <Title text={"About me"}></Title>
         <div className='lg:max-w-[1080px] md:basis-1/2 flex flex-col md:flex-row lg:space-x-10 xl:space-x-40'>
           <div className='flex w-full lg:h-full lg:basis-1/2 justify-center lg:justify-end items-center'>

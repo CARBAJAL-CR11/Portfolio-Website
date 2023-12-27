@@ -3,8 +3,13 @@
 import React, { useState } from "react";
 // Fa Icons imports
 import { FaBars, FaTimes } from "react-icons/fa";
+// react-scroll import
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
+
+  
+  
 
   const [nav, setNav] = useState(false);
 
@@ -26,10 +31,6 @@ const NavBar = () => {
       id: 4,
       link: 'proyects'
     },
-    {
-      id: 5,
-      link: 'cv'
-    },
   ]
 
   return (
@@ -46,9 +47,12 @@ const NavBar = () => {
           {links.map(({ id, link }) => (
 
             <li key={id} className="hover:text-vivid-cyan md:text-xl lg:text-xl uppercase duration-300 cursor-pointer">
-              {link}
+              <Link to={link} smooth duration={600}>{link}</Link>
             </li>
           ))}
+          <a href="src\assets\docs\CV_Cristian_Rodriguez_English.pdf" className="hover:text-vivid-cyan md:text-xl lg:text-xl uppercase duration-300 cursor-pointer">
+            cv
+          </a>
         </ul>
 
         {/* Toggle Responsive Button (Hidden in desktop) */}
@@ -60,7 +64,7 @@ const NavBar = () => {
           <ul className="md:hidden flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-third to-third bg text-white">
             {links.map(({ id, link }) => (
               <li key={id} className="hover:text-vivid-cyan text-4xl uppercase duration-300 cursor-pointer px-4 py-6">
-                {link}
+                <Link to={link} smooth duration={500}>{link}</Link>
               </li>
             ))}
           </ul>

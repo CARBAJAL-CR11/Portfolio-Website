@@ -14,7 +14,7 @@ import { Bss } from './Projects/Bss.jsx'
 
 function Proyect() {
   return (
-    <section id="proyects" className="flex flex-col m-8 sm:m-20 lg:m-28 xl:m-36 xl:mt-[350px]">
+    <section id="proyects" className="flex flex-col p-8 sm:p-20 lg:p-28 xl:p-36 xl:pt-[350px]">
       <Title text={"My projects"}/>
       <h1 className='text-white justify-center lg: text-left text-4xl sm:text-4xl lg:text-5xl xl:text-5xl'>What <span className='text-vivid-cyan'>I have built</span></h1>
       {/* Proyects */}

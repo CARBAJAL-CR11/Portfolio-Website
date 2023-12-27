@@ -1,6 +1,6 @@
 // **Imports**
 // React import
-import React from 'react';
+import React, { useState } from 'react';
 // Typed Animation import
 import { TypeAnimation } from 'react-type-animation';
 // Ai Icons imports
@@ -8,7 +8,40 @@ import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 
 
+
 function Home() {
+
+  // Text to set on the clipboard
+  const [textToCopy, setTextToCopy] = useState('cr4133668@gmail.com');
+  const [showNotification, setShowNotification] = useState(false);
+
+  // Copy Gmail to Clipboard Function
+  const copyToClipboard = () => {
+    // Textarea element to hold the text
+    const textArea = document.createElement('textarea');
+    textArea.value = textToCopy;
+
+    // Append the textarea element to the DOM
+    document.body.appendChild(textArea);
+
+    // Text selected in the textarea
+    textArea.select();
+
+    // Copy the text to the clipboard
+    document.execCommand('copy');
+
+    // Remove the textarea element from the DOM
+    document.body.removeChild(textArea);
+
+    // Show the notification
+    setShowNotification(true);
+
+    // Hide the notification after 4 seconds
+    setTimeout(() => {
+      setShowNotification(false);
+    }, 4000);
+  };
+
   return (
     <section id='home'>
       {/* Background Hero image */}
@@ -50,12 +83,18 @@ function Home() {
               <AiOutlineInstagram className='h-6 w-6' />
             </a>
             {/* Gmail Icon */}
-            <a href='' className='h-8 w-8 border border-white  rounded-full flex justify-center items-center cursor-pointer'>
+            <button onClick={copyToClipboard} className='h-8 w-8 border border-white  rounded-full flex justify-center items-center cursor-pointer'>
               <SiGmail className='h-5 w-5' />
-            </a>
+            </button>
           </div>
         </div>
       </div>
+      {/* Notification */}
+      {showNotification && (
+        <div class="px-4 py-3 leading-normal text-primary bg-white rounded-lg absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-opacity-75" role="alert">
+          <p>Gmail copied to clipboard</p>
+        </div>
+      )}
     </section>
   )
 }

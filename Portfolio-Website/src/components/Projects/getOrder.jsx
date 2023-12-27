@@ -29,7 +29,7 @@ export const GetOrder = ({ }) => {
                 <FaJava className="h-[40px] w-[40px]" />
                 <SiMicrosoftsqlserver className="h-[40px] w-[40px]" />
               </div>
-              <div className="flex justify-center sm:justify-start">
+              <div className="hidden justify-center sm:justify-start">
                 <a href="" className="text-white text-xl border border-white  py-2 px-3 rounded-lg transition duration-200 hover:border-vivid-cyan hover:text-vivid-cyan hover:opacity-80">
                   Visit Code
                 </a>
@@ -43,9 +43,9 @@ export const GetOrder = ({ }) => {
           </div>
 
         </div>
-        {/* Serva Image */}
+        {/* getOrder Image */}
         <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:pr-4 lg:pr-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\getOrder.png" alt="Imagen de getOrder" />
+          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\getOrder.png" alt="Imagen de getOrder" />
         </div>
       </article >
     </>

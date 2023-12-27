@@ -29,7 +29,7 @@ export const Serva = ({ }) => {
                 <SiCsharp className="h-[40px] w-[40px]" />
                 <SiMysql className="h-[40px] w-[40px]" />
               </div>
-              <div className="flex justify-center sm:justify-start">
+              <div className="hidden justify-center sm:justify-start">
                 <a href="" className="text-white text-xl border border-white  py-2 px-3 rounded-lg transition duration-200 hover:border-vivid-cyan hover:text-vivid-cyan hover:opacity-80">
                   Visit Code
                 </a>
@@ -45,7 +45,7 @@ export const Serva = ({ }) => {
         </div>
         {/* Serva Image */}
         <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:pl-4 lg:pl-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\Serva.png" alt="Imagen de Serva" />
+          <img className="sm:ml-4 lg:ml-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\Serva.png" alt="Imagen de Serva" />
         </div>
       </article >
     </>
