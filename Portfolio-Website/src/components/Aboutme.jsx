@@ -2,7 +2,7 @@
 // React import
 import React from 'react';
 // Title component import
-import { Title } from './Title'
+import { Title } from './Title.jsx'
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
 

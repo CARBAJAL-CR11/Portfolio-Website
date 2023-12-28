@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Aboutme from './components/Aboutme'
-import Skills from './components/Skills'
-import Proyect from './components/Proyect'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar.jsx'
+import Home from './components/Home.jsx'
+import Aboutme from './components/Aboutme.jsx'
+import Skills from './components/Skills.jsx'
+import Proyect from './components/Proyect.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)

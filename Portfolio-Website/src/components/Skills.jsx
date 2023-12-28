@@ -2,11 +2,11 @@
 // React import
 import React from 'react'
 // Title component import
-import { Title } from './Title'
+import { Title } from './Title.jsx'
 // Icons Skill component import
-import { IconsSkill } from './IconsSkill'
+import { IconsSkill } from './IconsSkill.jsx'
 // Database Icons component import
-import { WebDesign } from './WebDesign'
+import { WebDesign } from './WebDesign.jsx'
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
 
