@@ -38,7 +38,7 @@ export const Mambos = ({ }) => {
 
             </div>
             <div className="flex justify-center sm:justify-start lg:hidden pt-4 sm:pt-0">
-              <img className=" h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\Mambos.png" alt="Imagen de Serva" />
+              <img className=" h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\Mambos.png" alt="Imagen de Mambos" />
 
             </div>
           </div>
@@ -46,7 +46,7 @@ export const Mambos = ({ }) => {
         </div>
         {/* Mambos Image */}
         <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:ml-4 lg:ml-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\Mambos.png" alt="Imagen de Mambo’s"/>
+          <img className="sm:ml-4 lg:ml-14 lg:h-[200px] xl:h-full rounded-md" src="src\assets\img\Mambos.png" alt="Imagen de Mambo’s"/>
         </div>
       </article >
     </>

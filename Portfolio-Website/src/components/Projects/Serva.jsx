@@ -45,7 +45,7 @@ export const Serva = ({ }) => {
         </div>
         {/* Serva Image */}
         <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:ml-4 lg:ml-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\Serva.png" alt="Imagen de Serva" />
+          <img className="sm:ml-4 lg:ml-14 lg:h-[200px] xl:h-full rounded-md" src="src\assets\img\Serva.png" alt="Imagen de Serva" />
         </div>
       </article >
     </>

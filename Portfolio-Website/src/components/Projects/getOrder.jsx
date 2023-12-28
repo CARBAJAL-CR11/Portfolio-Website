@@ -37,15 +37,15 @@ export const GetOrder = ({ }) => {
 
             </div>
             <div className="flex justify-center sm:justify-start lg:hidden pt-4 sm:pt-0">
-              <img className=" h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\getOrder.png" alt="Imagen de Serva" />
+              <img className=" h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\getOrder.png" alt="Imagen de getOrder" />
 
             </div>
           </div>
 
         </div>
         {/* getOrder Image */}
-        <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\getOrder.png" alt="Imagen de getOrder" />
+        <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex rounded-xl">
+          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-full rounded-xl " src="src\assets\img\getOrder.png" alt="Imagen de getOrder" />
         </div>
       </article >
     </>

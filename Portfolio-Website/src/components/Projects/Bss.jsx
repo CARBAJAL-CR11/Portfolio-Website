@@ -43,15 +43,15 @@ export const Bss = ({ }) => {
 
             </div>
             <div className="flex justify-center sm:justify-start lg:hidden pt-4 sm:pt-0">
-              <img className="h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\BSS.png" alt="Imagen de Serva" />
+              <img className="h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\BSS.png" alt="Imagen de Bss" />
 
             </div>
           </div>
 
         </div>
-        {/* Serva Image */}
+        {/* BSS Image */}
         <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-[300px] rounded-md" src="src\assets\img\BSS.png" alt="Imagen de BSS" />
+          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-full rounded-md" src="src\assets\img\BSS.png" alt="Imagen de BSS" />
         </div>
       </article >
     </>
