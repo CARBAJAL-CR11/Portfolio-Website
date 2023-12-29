@@ -13,7 +13,7 @@ export const Title = ({ text }) => {
   return (
     <div className='grid place-content-center mb-28 uppercase text-center'>
       <div className='z-10 '>
-        <h3 className=' text-vivid-cyan text-3xl -mb-[40px] underline underline-offset-4 flex justify-center'>
+        <h3 className=' text-vivid-cyan text-3xl font-bold -mb-[40px]  flex justify-center'>
           <Reveal>{text}</Reveal></h3>
       </div>
       <div className='relative -mt-0 lg:-mt-[10px]'>

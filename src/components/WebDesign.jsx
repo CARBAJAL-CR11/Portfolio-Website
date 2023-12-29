@@ -28,107 +28,117 @@ export const WebDesign = ({ }) => {
         <div className="flex flex-col lg:flex-row w-full justify-center lg:-space-x-8 xl:space-x-5 mt-10 lg:mt-20 ">
 
           {/* First Row */}
-          <div className="flex flex-row justify-center duration-150 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100 space-x-5">
+          <div className="flex flex-row justify-center duration-150 scale-90 sm:scale-[70%] md:scale-90 lg:scale-90 xl:scale-100 space-x-5">
 
-            {/* Tailwind Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={TailwindIcon} alt="Tailwind" className="h-[40px] w-[60px]" />
+            <div className='flex flex-col space-y-5 sm:space-y-0 sm:space-x-5 sm:flex-row'>
+              {/* Tailwind Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={TailwindIcon} alt="Tailwind" className="h-[40px] w-[60px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">Tailwind</p>
                   </div>
-                  <p className="text-white text-center text-xs">Tailwind</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
 
-            {/* React Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={ReactIcon} alt="React" className="h-[50px] w-[60px]" />
+              {/* React Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={ReactIcon} alt="React" className="h-[50px] w-[60px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">React</p>
                   </div>
-                  <p className="text-white text-center text-xs">React</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
 
-            {/* Vite Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={ViteIcon} alt="Vite" className="h-[55px] w-[60px]" />
+            </div>
+            <div className='flex flex-col space-y-5 sm:space-y-0 sm:space-x-5 sm:flex-row'>
+              {/* Vite Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={ViteIcon} alt="Vite" className="h-[55px] w-[60px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">Vite</p>
                   </div>
-                  <p className="text-white text-center text-xs">Vite</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
 
-            {/* Figma Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={FigmaIcon} alt="Figma" className="h-[50px] w-[65px]" />
+              {/* Figma Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={FigmaIcon} alt="Figma" className="h-[50px] w-[65px]" />
 
+                    </div>
+                    <p className="text-white text-center text-xs">Figma</p>
                   </div>
-                  <p className="text-white text-center text-xs">Figma</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
+
+            </div>
 
           </div>
           {/* Second Row */}
-          <div className="flex flex-row justify-center duration-150 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100 space-x-5">
-            {/* HTML Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={HTMLIcon} alt="HTML" className="h-[50px] w-[45px]" />
+          <div className="flex flex-row justify-center duration-150 scale-90 sm:scale-[70%] md:scale-90 lg:scale-90 xl:scale-100 space-x-5">
+            <div className='flex flex-col space-y-5 sm:space-y-0 sm:space-x-5 sm:flex-row'>
+              {/* HTML Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={HTMLIcon} alt="HTML" className="h-[50px] w-[45px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">HTML</p>
                   </div>
-                  <p className="text-white text-center text-xs">HTML</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
 
-            {/* CSS Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={CSSIcon} alt="CSS" className="h-[50px] w-[45px]" />
+              {/* CSS Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={CSSIcon} alt="CSS" className="h-[50px] w-[45px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">CSS</p>
                   </div>
-                  <p className="text-white text-center text-xs">CSS</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
 
-            {/* Prisma Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={PrismaIcon} alt="Prisma" className="h-[50px] w-[40px]" />
+            </div>
+            <div className='flex flex-col space-y-5 sm:space-y-0 sm:space-x-5 sm:flex-row'>
+              {/* Prisma Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={PrismaIcon} alt="Prisma" className="h-[50px] w-[40px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">Prisma</p>
                   </div>
-                  <p className="text-white text-center text-xs">Prisma</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
 
-            {/* Node Icons */}
-            <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
-                <div className="grid place-content-center place-items-center">
-                  <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={NodeIcon} alt="Node" className="h-[50px] w-[45px]" />
+              {/* Node Icons */}
+              <Reveal>
+                <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
+                  <div className="grid place-content-center place-items-center">
+                    <div className="grid place-content-center h-[50px] w-[65px] mb-3">
+                      <img src={NodeIcon} alt="Node" className="h-[50px] w-[45px]" />
+                    </div>
+                    <p className="text-white text-center text-xs">Node</p>
                   </div>
-                  <p className="text-white text-center text-xs">Node</p>
                 </div>
-              </div>
-            </Reveal>
+              </Reveal>
+
+            </div>
 
           </div>
         </div>

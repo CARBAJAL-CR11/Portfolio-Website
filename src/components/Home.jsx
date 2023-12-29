@@ -10,6 +10,7 @@ import { SiGmail } from "react-icons/si";
 import { motion } from 'framer-motion';
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
+import { ProyectsReveal } from './Animations/ProyectsReveal.tsx';
 //Images import 
 import background from '../assets/img/Background2.png';
 
@@ -54,12 +55,15 @@ function Home() {
     <section
       id='home'>
       {/* Background Hero image */}
-      <img className='w-full h-screen object-cover' src={background} alt="Background" />
+      <div className='relative'>
+        <img className='w-full h-screen object-cover' src={background} alt="Background" />
+        <div class="absolute inset-0 backdrop-blur-[5px]"></div>
+      </div>
       <div
         className='w-full h-screen absolute top-0 left-0'>
         <div className='m-auto h-full w-full flex flex-col justify-center items-center'>
           {/* Title content */}
-          <Reveal>
+          <ProyectsReveal>
             <h1 className='text-white text-3xl md:text-5xl text-center lg:text-6xl pt-12'>Hi, I am
               {/* Typed text animation */}
               <TypeAnimation
@@ -80,14 +84,14 @@ function Home() {
                 preRenderFirstString={true}
               />
             </h1>
-          </Reveal>
+          </ProyectsReveal>
 
           {/* SubTitle content */}
-          <Reveal>
+          <ProyectsReveal>
             <h2 className='text-white-secondary text-sm md:text-xl pt-4'>A creative student & Full stack developer</h2>
-          </Reveal>
+          </ProyectsReveal>
           {/* Icons contet */}
-          <Reveal>
+          <ProyectsReveal>
             <div className='flex text-white space-x-10 pt-5'>
               {/* Github Icon */}
               <a href='https://github.com/CARBAJAL-CR11' className='h-8 w-8 border border-white  rounded-full flex justify-center items-center cursor-pointer'>
@@ -102,7 +106,7 @@ function Home() {
                 <SiGmail className='h-5 w-5' />
               </button>
             </div>
-          </Reveal>
+          </ProyectsReveal>
         </div>
       </div>
       {/* Notification */}

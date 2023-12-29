@@ -26,13 +26,13 @@ export const IconsSkill = ({ }) => {
           <h1 className="text-white text-4xl text-center flex justify-center"><Reveal>Programing</Reveal></h1>
 
           {/* First Row */}
-          <div className="flex flex-row w-full justify-center space-x-5 mt-10 lg:mt-20 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
+          <div className="flex flex-row w-full justify-center space-x-5 mt-10 lg:mt-20 scale-90 sm:scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
 
             {/* JavaScript Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center">
-                  <img src={JavaScript} alt="JavaScript" className="h-[50px] w-[50px] mb-3" />
+                  <img src={JavaScript} alt="JavaScript" className="h-[30px] w-[30px] sm:h-[50px] sm:w-[50px] mb-3" />
                   <p className="text-white text-center text-xs">JavaScript</p>
 
                 </div>
@@ -41,9 +41,9 @@ export const IconsSkill = ({ }) => {
 
             {/* PHP Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center  h-[50px] ">
-                  <img src={Php} alt="PHP Icon" className="h-[35px] w-[60px] mt-3" />
+                  <img src={Php} alt="PHP Icon" className="h-[25px] w-[45px] sm:h-[35px] sm:w-[60px] mt-3" />
                   <p className="text-white text-center text-xs pt-4">PHP</p>
                 </div>
               </div>
@@ -51,9 +51,9 @@ export const IconsSkill = ({ }) => {
 
             {/* C# Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center">
-                  <img src={Csharp} alt="CSharp" className="h-[50px] w-[50px] mb-3" />
+                  <img src={Csharp} alt="CSharp" className="h-[40px] w-[40px] sm:h-[50px] sm:w-[50px] mb-3" />
                   <p className="text-white text-center text-xs">C#</p>
                 </div>
               </div>
@@ -61,13 +61,13 @@ export const IconsSkill = ({ }) => {
           </div>
 
           {/* Second Row */}
-          <div className="flex flex-row w-full justify-center space-x-5 mt-5 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
+          <div className="flex flex-row w-full justify-center space-x-5 mt-0 sm:mt-5 scale-90 sm:scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
 
             {/* Java Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center">
-                  <img src={JavaIcon} alt="Java" className="h-[50px] w-[40px] mb-3" />
+                  <img src={JavaIcon} alt="Java" className="h-[40px] w-[30px] sm:h-[50px] sm:w-[40px] mb-3" />
                   <p className="text-white text-center text-xs">Java</p>
                 </div>
               </div>
@@ -80,14 +80,14 @@ export const IconsSkill = ({ }) => {
           <h1 className="text-white text-center text-4xl flex justify-center"><Reveal> <span className="text-vivid-cyan">Database</span> Managment</Reveal></h1>
 
           {/* First Row */}
-          <div className="flex flex-row w-full justify-center space-x-5 mt-10 lg:mt-20 scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
+          <div className="flex flex-row w-full justify-center space-x-5 mt-10 lg:mt-20 scale-90 sm:scale-[70%] md:scale-90 lg:scale-90 xl:scale-100">
 
             {/* Postgres Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={Postgres} alt="Postgres" className="h-[50px] w-[45px]" />
+                    <img src={Postgres} alt="Postgres" className="h-[45px] w-[40px] sm:h-[50px] sm:w-[45px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">Postgres</p>
@@ -97,10 +97,10 @@ export const IconsSkill = ({ }) => {
 
             {/* MySql Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[75px] mb-3">
-                    <img src={MySQLIcon} alt="MySql" className="h-[50px] w-[75px]" />
+                    <img src={MySQLIcon} alt="MySql" className="h-[50px] w-[60px] sm:h-[75px] sm:w-[50px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">MySql</p>
@@ -110,10 +110,10 @@ export const IconsSkill = ({ }) => {
 
             {/* SQL Server Icons */}
             <Reveal>
-              <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
+              <div className="grid place-content-center w-[90px] h-[110px] sm:w-[110px] sm:h-[130px] bg-secondary rounded">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src={SQLserverIcon} alt="SQL Server" className="h-[50px] w-[50px]" />
+                    <img src={SQLserverIcon} alt="SQL Server" className="w-[40px] h-[40px] sm:w-[50px] sm:h-[50px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">SQL Server</p>

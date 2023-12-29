@@ -27,9 +27,9 @@ export const Serva = ({ }) => {
           <div className="flex flex-col-reverse sm:flex-row w-full sm:justify-between">
             <div className="flex flex-col pt-4 space-y-8 sm:pt-12 lg:pt-0">
               <div className="flex flex-row justify-center sm:justify-start space-x-3 text-vivid-cyan">
-                <SiDotnet className="h-[40px] w-[40px]" />
-                <SiCsharp className="h-[40px] w-[40px]" />
-                <SiMysql className="h-[40px] w-[40px]" />
+                <SiDotnet className="h-[30px] w-[30px]" />
+                <SiCsharp className="h-[30px] w-[30px]" />
+                <SiMysql className="h-[30px] w-[30px]" />
               </div>
               <div className="hidden justify-center sm:justify-start">
                 <a href="" className="text-white text-xl border border-white  py-2 px-3 rounded-lg transition duration-200 hover:border-vivid-cyan hover:text-vivid-cyan hover:opacity-80">

@@ -28,13 +28,13 @@ export const Bss = ({ }) => {
             <div className="flex flex-col pt-4 space-y-8 sm:pt-12 lg:pt-0">
               <div className="flex flex-col space-y-3 lg:space-y-0 lg:flex-row lg:space-x-3 justify-center sm:justify-start  text-vivid-cyan">
                 <div className="flex flex-row justify-center sm:justify-start space-x-3">
-                  <SiNodedotjs className="h-[40px] w-[40px]" />
-                  <SiPostgresql className="h-[40px] w-[40px]" />
-                  <SiJavascript className="h-[40px] w-[40px]" />
+                  <SiNodedotjs className="h-[30px] w-[30px]" />
+                  <SiPostgresql className="h-[30px] w-[30px]" />
+                  <SiJavascript className="h-[30px] w-[30px]" />
                 </div>
                 <div className="flex flex-row space-x-3 justify-center sm:justify-start">
-                  <SiTailwindcss className="h-[40px] w-[40px]" />
-                  <SiReact className="h-[40px] w-[40px]" />
+                  <SiTailwindcss className="h-[30px] w-[30px]" />
+                  <SiReact className="h-[30px] w-[30px]" />
                 </div>
               </div>
               <div className="flex justify-center sm:justify-start">
