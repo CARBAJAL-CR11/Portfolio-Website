@@ -6,7 +6,7 @@ import { Title } from './Title.jsx'
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
 //Images import 
-import Me from '../assets/img/Me3.png';
+import Me from '../assets/img/Me3.png'; 
 
 const Aboutme = () => {
   return (
