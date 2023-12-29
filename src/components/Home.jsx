@@ -10,7 +10,8 @@ import { SiGmail } from "react-icons/si";
 import { motion } from 'framer-motion';
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
-
+//Image import 
+import background from '../assets/img/Background2.png';
 
 
 function Home() {
@@ -53,7 +54,7 @@ function Home() {
     <section
       id='home'>
       {/* Background Hero image */}
-      <img className='w-full h-screen object-cover' src="src\assets\img\Background2.png" alt="Background" />
+      <img className='w-full h-screen object-cover' src={background} alt="Background" />
       <div
         className='w-full h-screen absolute top-0 left-0'>
         <div className='m-auto h-full w-full flex flex-col justify-center items-center'>
