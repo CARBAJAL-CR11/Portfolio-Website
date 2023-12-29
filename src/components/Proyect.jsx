@@ -4,13 +4,13 @@ import React from 'react'
 // Title component import
 import { Title } from './Title'
 // Serva article component import
-import { Serva } from './Projects/Serva.jsx'
+import { Serva } from './Serva.jsx'
 // Mambos article component import
-import { Mambos } from './Projects/Mambos.jsx'
+import { Mambos } from './Mambos.jsx'
 // getOrder article component import
-import { GetOrder } from './Projects/getOrder.jsx'
+import { GetOrder } from './getOrder.jsx'
 // Bss article component import
-import { Bss } from './Projects/Bss.jsx'
+import { Bss } from './Bss.jsx'
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
 // Show Proyects Animation import

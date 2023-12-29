@@ -5,6 +5,8 @@
 // Ai & Si Icons imports
 import { AiFillGithub } from "react-icons/ai";
 import { SiJavascript, SiNodedotjs, SiPostgresql, SiReact, SiTailwindcss } from "react-icons/si";
+//Images import 
+import BssImage from '../assets/img/BSS.png';
 
 export const Bss = ({ }) => {
   return (
@@ -43,7 +45,7 @@ export const Bss = ({ }) => {
 
             </div>
             <div className="flex justify-center sm:justify-start lg:hidden pt-4 sm:pt-0">
-              <img className="h-[120px] sm:h-[155px] rounded-md" src="src\assets\img\BSS.png" alt="Imagen de Bss" />
+              <img className="h-[120px] sm:h-[155px] rounded-md" src={BssImage} alt="Imagen de Bss" />
 
             </div>
           </div>
@@ -51,7 +53,7 @@ export const Bss = ({ }) => {
         </div>
         {/* BSS Image */}
         <div className="sm:basis-2/5 lg:basis-1/2 h-72 hidden lg:flex">
-          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-full rounded-md" src="src\assets\img\BSS.png" alt="Imagen de BSS" />
+          <img className="sm:mr-4 lg:mr-14 lg:h-[200px] xl:h-full rounded-md" src={BssImage} alt="Imagen de BSS" />
         </div>
       </article >
     </>

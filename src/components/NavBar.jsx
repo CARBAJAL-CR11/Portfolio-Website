@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 // react-scroll import
 import { Link } from 'react-scroll'
+// Docs import 
+import CVDoc from '../assets/docs/CV_Cristian_Rodriguez_.pdf';
 
 const NavBar = () => {
 
@@ -50,7 +52,7 @@ const NavBar = () => {
               <Link to={link} smooth duration={600}>{link}</Link>
             </li>
           ))}
-          <a href="src\assets\docs\CV_Cristian_Rodriguez_English.pdf" className="hover:text-vivid-cyan md:text-xl lg:text-xl uppercase duration-300 cursor-pointer">
+          <a href={CVDoc} className="hover:text-vivid-cyan md:text-xl lg:text-xl uppercase duration-300 cursor-pointer">
             cv
           </a>
         </ul>

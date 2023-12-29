@@ -4,6 +4,15 @@
 
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
+//Images import 
+import background from '../assets/img/Background2.png';
+import JavaScript from '../assets/Icons/JavaScript.png';
+import Php from '../assets/Icons/PHP.png';
+import Csharp from '../assets/Icons/csharp.png';
+import JavaIcon from '../assets/Icons/Java.png';
+import Postgres from '../assets/Icons/Postgres.png';
+import MySQLIcon from '../assets/Icons/MySQL.png';
+import SQLserverIcon from '../assets/Icons/SQLserverIcon.png';
 
 export const IconsSkill = ({ }) => {
   return (
@@ -23,7 +32,7 @@ export const IconsSkill = ({ }) => {
             <Reveal>
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
-                  <img src="src\assets\Icons\JavaScript.png" alt="JavaScript" className="h-[50px] w-[50px] mb-3" />
+                  <img src={JavaScript} alt="JavaScript" className="h-[50px] w-[50px] mb-3" />
                   <p className="text-white text-center text-xs">JavaScript</p>
 
                 </div>
@@ -34,7 +43,7 @@ export const IconsSkill = ({ }) => {
             <Reveal>
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center  h-[50px] ">
-                  <img src="src\assets\Icons\PHP.png" alt="PHP Icon" className="h-[35px] w-[60px] mt-3" />
+                  <img src={Php} alt="PHP Icon" className="h-[35px] w-[60px] mt-3" />
                   <p className="text-white text-center text-xs pt-4">PHP</p>
                 </div>
               </div>
@@ -44,7 +53,7 @@ export const IconsSkill = ({ }) => {
             <Reveal>
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
-                  <img src="src\assets\Icons\csharp.png" alt="CSharp" className="h-[50px] w-[50px] mb-3" />
+                  <img src={Csharp} alt="CSharp" className="h-[50px] w-[50px] mb-3" />
                   <p className="text-white text-center text-xs">C#</p>
                 </div>
               </div>
@@ -58,7 +67,7 @@ export const IconsSkill = ({ }) => {
             <Reveal>
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
-                  <img src="src\assets\Icons\Java.png" alt="Java" className="h-[50px] w-[40px] mb-3" />
+                  <img src={JavaIcon} alt="Java" className="h-[50px] w-[40px] mb-3" />
                   <p className="text-white text-center text-xs">Java</p>
                 </div>
               </div>
@@ -78,7 +87,7 @@ export const IconsSkill = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\Postgres.png" alt="Postgres" className="h-[50px] w-[45px]" />
+                    <img src={Postgres} alt="Postgres" className="h-[50px] w-[45px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">Postgres</p>
@@ -91,7 +100,7 @@ export const IconsSkill = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[75px] mb-3">
-                    <img src="src\assets\Icons\MySql.png" alt="MySql" className="h-[50px] w-[75px]" />
+                    <img src={MySQLIcon} alt="MySql" className="h-[50px] w-[75px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">MySql</p>
@@ -104,7 +113,7 @@ export const IconsSkill = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\SQLserverIcon.png" alt="SQL Server" className="h-[50px] w-[50px]" />
+                    <img src={SQLserverIcon} alt="SQL Server" className="h-[50px] w-[50px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">SQL Server</p>

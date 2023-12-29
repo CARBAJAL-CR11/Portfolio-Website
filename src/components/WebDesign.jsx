@@ -4,6 +4,15 @@
 
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
+//Images import 
+import ReactIcon from '../assets/Icons/ReactIcon.png';
+import TailwindIcon from '../assets/Icons/tailwind.png';
+import ViteIcon from '../assets/Icons/Vite.png';
+import FigmaIcon from '../assets/Icons/Figma.png';
+import HTMLIcon from '../assets/Icons/HTML.png';
+import CSSIcon from '../assets/Icons/CSS.png';
+import PrismaIcon from '../assets/Icons/Prisma.png';
+import NodeIcon from '../assets/Icons/Node.png';
 
 export const WebDesign = ({ }) => {
   return (
@@ -26,7 +35,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\Tailwind.png" alt="Tailwind" className="h-[40px] w-[60px]" />
+                    <img src={TailwindIcon} alt="Tailwind" className="h-[40px] w-[60px]" />
                   </div>
                   <p className="text-white text-center text-xs">Tailwind</p>
                 </div>
@@ -38,7 +47,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\ReactIcon.png" alt="React" className="h-[50px] w-[60px]" />
+                    <img src={ReactIcon} alt="React" className="h-[50px] w-[60px]" />
                   </div>
                   <p className="text-white text-center text-xs">React</p>
                 </div>
@@ -50,7 +59,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\Vite.png" alt="Vite" className="h-[55px] w-[60px]" />
+                    <img src={ViteIcon} alt="Vite" className="h-[55px] w-[60px]" />
                   </div>
                   <p className="text-white text-center text-xs">Vite</p>
                 </div>
@@ -62,7 +71,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\Figma.png" alt="Figma" className="h-[50px] w-[65px]" />
+                    <img src={FigmaIcon} alt="Figma" className="h-[50px] w-[65px]" />
 
                   </div>
                   <p className="text-white text-center text-xs">Figma</p>
@@ -78,7 +87,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\HTML.png" alt="HTML" className="h-[50px] w-[45px]" />
+                    <img src={HTMLIcon} alt="HTML" className="h-[50px] w-[45px]" />
                   </div>
                   <p className="text-white text-center text-xs">HTML</p>
                 </div>
@@ -90,7 +99,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\CSS.png" alt="CSS" className="h-[50px] w-[45px]" />
+                    <img src={CSSIcon} alt="CSS" className="h-[50px] w-[45px]" />
                   </div>
                   <p className="text-white text-center text-xs">CSS</p>
                 </div>
@@ -102,7 +111,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\Prisma.png" alt="Prisma" className="h-[50px] w-[40px]" />
+                    <img src={PrismaIcon} alt="Prisma" className="h-[50px] w-[40px]" />
                   </div>
                   <p className="text-white text-center text-xs">Prisma</p>
                 </div>
@@ -114,7 +123,7 @@ export const WebDesign = ({ }) => {
               <div className="grid place-content-center w-[110px] h-[130px] bg-secondary">
                 <div className="grid place-content-center place-items-center">
                   <div className="grid place-content-center h-[50px] w-[65px] mb-3">
-                    <img src="src\assets\Icons\Node.png" alt="Node" className="h-[50px] w-[45px]" />
+                    <img src={NodeIcon} alt="Node" className="h-[50px] w-[45px]" />
                   </div>
                   <p className="text-white text-center text-xs">Node</p>
                 </div>

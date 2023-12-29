@@ -7,6 +7,9 @@ import React, { useState } from 'react';
 // Ai & Si Icons imports
 import { AiFillGithub, AiOutlineInstagram, AiOutlineCopyrightCircle } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
+//Images import 
+import ReactIcon from '../assets/Icons/ReactIcon.png';
+import TailwindIcon from '../assets/Icons/tailwind.png';
 
 
 function Footer() {
@@ -65,11 +68,11 @@ function Footer() {
             <div className="flex flex-row justify-center md:justify-end space-x-4">
               <p>Made with</p>
               <div className="flex flex-col justify-center text-sm">
-                <img className="h-6 w-8" src="src\assets\icons\tailwind.png" alt="tailwind icon" />
+                <img className="h-6 w-8" src={TailwindIcon} alt="tailwind icon" />
               </div>
               <p>&</p>
               <div className="flex flex-col justify-center text-sm">
-                <img className="h-6 w-7" src="src\assets\icons\ReactIcon.png" alt="react icon" />
+                <img className="h-6 w-7" src={ReactIcon} alt="react icon" />
               </div>
             </div>
           </div>

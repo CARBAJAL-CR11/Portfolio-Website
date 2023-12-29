@@ -5,6 +5,8 @@ import React from 'react';
 import { Title } from './Title.jsx'
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
+//Images import 
+import Me from '../assets/img/Me3.png';
 
 const Aboutme = () => {
   return (
@@ -18,7 +20,7 @@ const Aboutme = () => {
           {/* Profile Photo */}
           <div className='flex w-full lg:h-full lg:basis-1/2 justify-center lg:justify-end items-center'>
             <Reveal>
-              <img className='h-[300px] w-[250px] lg:w-[300px] lg:h-[400px] xl:h-[450px] xl:w-[350px]' src="src\assets\img\Me3.png" alt="Criss_Photo" />
+              <img className='h-[300px] w-[250px] lg:w-[300px] lg:h-[400px] xl:h-[450px] xl:w-[350px]' src={Me} alt="Criss_Photo" />
             </Reveal>
           </div>
           {/* About me Introduction */}

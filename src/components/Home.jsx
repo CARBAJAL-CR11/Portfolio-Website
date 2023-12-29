@@ -10,7 +10,7 @@ import { SiGmail } from "react-icons/si";
 import { motion } from 'framer-motion';
 // Show Animation import
 import { Reveal } from './Animations/Reveal.tsx';
-//Image import 
+//Images import 
 import background from '../assets/img/Background2.png';
 
 
