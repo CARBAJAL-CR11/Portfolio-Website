@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navbar from './components/NavBar.jsx'
+import NavBar from './components/NavBar.jsx'
 import Home from './components/Home.jsx'
 import Aboutme from './components/Aboutme.jsx'
 import Skills from './components/Skills.jsx'
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Home />
       <Aboutme />
       <Skills />
