@@ -53,7 +53,7 @@ function Home() {
     <section
       id='home'>
       {/* Background Hero image */}
-      <img className='w-full h-screen object-cover' src="src\assets\img\Background.png" alt="Background" />
+      <img className='w-full h-screen object-cover' src="src\assets\img\Background2.png" alt="Background" />
       <div
         className='w-full h-screen absolute top-0 left-0'>
         <div className='m-auto h-full w-full flex flex-col justify-center items-center'>
